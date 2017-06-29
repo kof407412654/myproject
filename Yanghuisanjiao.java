@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Yanghui {
 
 	public static void main(String[] args) {
-		// Ñî»ÔÈı½Ç
+		// Ã‘Ã®Â»Ã”ÃˆÃ½Â½Ã‡
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëĞĞÊı£º");
+		System.out.print("Ã‡Ã«ÃŠÃ¤ÃˆÃ«ÃÃÃŠÃ½Â£Âº");
 		int rows = input.nextInt();
 		int[] a = new int[rows+2];
 		a[1] = 1;
