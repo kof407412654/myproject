@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Yanghui {
 
 	public static void main(String[] args) {
-		// Ñî»ÔÈý½Ç
+		// yanghui
 		Scanner input = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÐÐÊý£º");
+		System.out.print("Please enter the line number：");
 		int rows = input.nextInt();
 		int[] a = new int[rows+2];
 		a[1] = 1;
