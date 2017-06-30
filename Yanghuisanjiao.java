@@ -27,6 +27,7 @@ public class Yanghui {
 				b[j+1] = a[j] + a[j+1];
 				System.out.print(b[j+1] + "   ");
 			}
+			//exchange
 			for (int j = 0; j < 2+i; j++) {
 				a[j] = b[j];
 				b[j]=0;
