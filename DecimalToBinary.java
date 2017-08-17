@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class DecimalToBinary {
 
+	private static Scanner input;
+
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 		int num = 0;
 		String x = "";
 		while(true){
@@ -24,6 +26,7 @@ public class DecimalToBinary {
 			} while (num!=0);
 			System.out.printf("二进制数为：%s\n",x);
 		}
+		//Integer.toBinaryString(num)是最简单的方法。
 	}
 
 }
