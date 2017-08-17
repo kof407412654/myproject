@@ -1,11 +1,11 @@
-package Chapter9;
+package myproject;
 
 import java.util.Scanner;
 
-public class Yanghui {
+public class Yanghuisanjiao {
 
 	public static void main(String[] args) {
-		// yanghui
+		// 杨辉三角
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please enter the line number：");
 		int rows = input.nextInt();
