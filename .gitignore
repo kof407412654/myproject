@@ -4,3 +4,4 @@ jquery-3.2.1.min.js
 UseComparator.java
 *.idea
 *.out
+out/*
