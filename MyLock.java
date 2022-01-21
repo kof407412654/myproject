@@ -65,8 +65,8 @@ public class MyLock {
         public static Allocator getInstance(){
             return AllocatorSingle.install;
         }
-        static class AllocatorSingle{
-            public static Allocator install = new Allocator();
+        private static class AllocatorSingle{
+            static Allocator install = new Allocator();
         }
     }
 
