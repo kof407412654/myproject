@@ -1,5 +1,3 @@
-package myproject;
-
 public class ThreadTest {
 
     private static int i = 0;

@@ -1,5 +1,3 @@
-package myproject;
-
 public class Add10kTest {
 
     private static Integer count = 0;
